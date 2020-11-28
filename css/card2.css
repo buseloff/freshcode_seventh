@@ -1,0 +1,72 @@
+* {
+  margin: 0 auto;
+}
+
+.outer {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(185, 238, 99);
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#userLevel {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+
+#userScore {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+
+div img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 150px;
+
+  border: 3px solid gray;
+}
+.imageContainer {
+  width: 20%;
+  height: 80%;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  justify-content: space-around;
+  z-index: 5;
+}
+.userInfo {
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -200px;
+  align-content: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.userName {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.userChar {
+  font-size: 20px;
+  padding: 50px;
+}
+.userLink {
+  font-size: 15px;
+  align-self: flex-end;
+}
